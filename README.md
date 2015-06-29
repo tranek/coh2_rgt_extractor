@@ -6,6 +6,7 @@ Extracts texture files for Company of Heroes 2 from .rgt files into .dds or .tga
 ### Notes
 
  * Extract the .rgt file from the .sga archives using Relic's Archive Viewer.
+ * The Rainman Library is licensed under the [GNU LGPL v2.1] (https://www.gnu.org/copyleft/lesser.html).
 
 
 ### Compiling

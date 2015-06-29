@@ -43,11 +43,11 @@ Temporary Items
 .apdisk
 
 # Visual Studio junk
-.obj
-.log
-.tlog
+*.obj
+*.log
+*.tlog
 
 # Test files
-.rgt
-.dds
-.tga
+*.rgt
+*.dds
+*.tga
