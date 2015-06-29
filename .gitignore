@@ -51,3 +51,8 @@ Temporary Items
 *.rgt
 *.dds
 *.tga
+*.suo
+*.sdf
+*.opensdf
+*.user
+*.lastbuildstate

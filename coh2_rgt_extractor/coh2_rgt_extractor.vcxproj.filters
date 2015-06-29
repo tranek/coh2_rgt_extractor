@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Rainman">
+      <UniqueIdentifier>{3855d9d9-ad00-40b9-bdb0-ca0539f7b846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Rainman">
+      <UniqueIdentifier>{db677ec0-fd0e-4517-beae-bf2ce9822d8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\zLib">
+      <UniqueIdentifier>{815b9118-ee9d-43be-abf0-cb5214348fd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\zLib">
+      <UniqueIdentifier>{b4e6e29a-5803-4e31-b545-d1ecc86e3e39}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\CRgtFile.cpp">
+      <Filter>Source Files\Rainman</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\IFileStore.cpp">
+      <Filter>Source Files\Rainman</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\Exception.cpp">
+      <Filter>Source Files\Rainman</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\CChunkyFile.cpp">
+      <Filter>Source Files\Rainman</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\gnuc_defines.cpp">
+      <Filter>Source Files\Rainman</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\zLib\adler32.c">
+      <Filter>Source Files\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\zLib\compress.c">
+      <Filter>Source Files\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\zLib\crc32.c">
+      <Filter>Source Files\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\zLib\deflate.c">
+      <Filter>Source Files\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\zLib\gzio.c">
+      <Filter>Source Files\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\zLib\infback.c">
+      <Filter>Source Files\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\zLib\inffast.c">
+      <Filter>Source Files\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\zLib\inflate.c">
+      <Filter>Source Files\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\zLib\inftrees.c">
+      <Filter>Source Files\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\zLib\trees.c">
+      <Filter>Source Files\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\zLib\uncompr.c">
+      <Filter>Source Files\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\zLib\zutil.c">
+      <Filter>Source Files\zLib</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\IDirectoryTraverser.cpp">
+      <Filter>Source Files\Rainman</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\CFileSystemStore.cpp">
+      <Filter>Source Files\Rainman</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\Internal_Util.cpp">
+      <Filter>Source Files\Rainman</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\CMemoryStore.cpp">
+      <Filter>Source Files\Rainman</Filter>
+    </ClCompile>
+    <ClCompile Include="Rainman_src\WriteTime.cpp">
+      <Filter>Source Files\Rainman</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Rainman_src\CRgtFile.h">
+      <Filter>Header Files\Rainman</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\IFileStore.h">
+      <Filter>Header Files\Rainman</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\Exception.h">
+      <Filter>Header Files\Rainman</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\Api.h">
+      <Filter>Header Files\Rainman</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\CChunkyFile.h">
+      <Filter>Header Files\Rainman</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\gnuc_defines.h">
+      <Filter>Header Files\Rainman</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\memdebug.h">
+      <Filter>Header Files\Rainman</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\zLib\zlib.h">
+      <Filter>Header Files\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\zLib\crc32.h">
+      <Filter>Header Files\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\zLib\deflate.h">
+      <Filter>Header Files\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\zLib\inffast.h">
+      <Filter>Header Files\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\zLib\inffixed.h">
+      <Filter>Header Files\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\zLib\inflate.h">
+      <Filter>Header Files\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\zLib\inftrees.h">
+      <Filter>Header Files\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\zLib\trees.h">
+      <Filter>Header Files\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\zLib\zconf.h">
+      <Filter>Header Files\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\zLib\zutil.h">
+      <Filter>Header Files\zLib</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\IDirectoryTraverser.h">
+      <Filter>Header Files\Rainman</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\CFileSystemStore.h">
+      <Filter>Header Files\Rainman</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\Internal_Util.h">
+      <Filter>Header Files\Rainman</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\CMemoryStore.h">
+      <Filter>Header Files\Rainman</Filter>
+    </ClInclude>
+    <ClInclude Include="Rainman_src\WriteTime.h">
+      <Filter>Header Files\Rainman</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
